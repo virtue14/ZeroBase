@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    * {
+        color: red;
+    }
+
+    .box * {
+        font-size: 40px;
+    }
+
+    div {
+        color: blue;
+    }
+
+    .box {
+        color: blue;
+    }
+
+    .box .text1 {
+        color: green;
+    }
+
+    .box .text2 {
+        color: aqua;
+    }
+
+    #container {
+        color: black;
+    }
+
+    input[type="text"] {
+        border-color:red;
+    }
+
+    img[alt] {
+        border: 1px solid blue;
+    }
+</style>
+<body>
+    <div>123</div>
+    <p>123</p>
+    <a href="#">123</a>
+    <div class="box">
+        <p class="text1">123</p>
+        <span class="text2">123</span>
+    </div>
+
+    <div class="box" id="container">
+        <p class="text1">123</p>
+        <span class="text2">123</span>
+    </div>
+
+    <input type="text">
+    <img src="#" alt="이미지의 설명">
+</body>
+</html>
