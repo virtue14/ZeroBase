@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    @mixin bg-img ($bg-url, $bg-position: center; $bg-size: contain, $bg-color: transparent) {
+        background-image: url($bg-url);
+        background-repeat: no-repeat;
+        background-position: $bg-position;
+        background-size: $bg-size;
+        background-color: $bg-color;
+    }
+
+    .bg {
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        @include bg-img("https://via.placeholder.com/100", center, contain, #white)
+    }
+
+    @mixin ellipsis {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    p {
+        width: 300px;
+        @include ellipsis;
+    }
+</style>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequatur deserunt dignissimos doloremque dolores et facere, fuga iusto magnam nemo nesciunt nisi officiis quas qui quo sed veritatis voluptate voluptatibus?</p>
+    <div class="bg"></div>
+</body>
+</html>
