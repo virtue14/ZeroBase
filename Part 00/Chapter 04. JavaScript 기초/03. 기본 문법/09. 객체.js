@@ -17,7 +17,7 @@ const hyeonSeok = {
 	hobby: ['youtube', 'football'],
 };
 
-console.log(hyeonSeok.['name']['first']);
+console.log(hyeonSeok['name.first']);
 console.log(hyeonSeok.name.last);
 console.log(hyeonSeok.age);
 console.log(hyeonSeok.introduce());
