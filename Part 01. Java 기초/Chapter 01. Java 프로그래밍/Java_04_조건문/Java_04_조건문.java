@@ -1,4 +1,4 @@
-// Java 프로그래밍 - 조건문
+package Java_04_조건문;// Java 프로그래밍 - 조건문
 
 public class Java_04_조건문 {
     public static void main(String[] args) {

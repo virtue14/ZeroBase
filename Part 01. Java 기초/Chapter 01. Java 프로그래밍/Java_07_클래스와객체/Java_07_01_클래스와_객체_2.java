@@ -1,10 +1,8 @@
-//  Practice
+package Java_07_클래스와객체;//  Practice
 //  다음 클래스 직접 만든 후 객체 생성
-//  클래스명: Animal
+//  클래스명: Java_07_클래스와객체1.Animal
 //  특성: 이름, 무게, 분류
 //  기능: 먹기, 잠자기, 걷기, 뛰기
-
-import java.security.PublicKey;
 
 class Animal {
     String name;

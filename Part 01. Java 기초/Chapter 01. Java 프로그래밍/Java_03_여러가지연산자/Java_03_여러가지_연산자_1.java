@@ -1,4 +1,4 @@
-// Java 프로그래밍 - 여러가지 연산자_1
+package Java_03_여러가지연산자;// Java 프로그래밍 - 여러가지 연산자_1
 
 public class Java_03_여러가지_연산자_1 {
     public static void main(String[] args) {

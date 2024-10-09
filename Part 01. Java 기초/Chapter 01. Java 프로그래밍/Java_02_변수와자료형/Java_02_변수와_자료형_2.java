@@ -1,4 +1,4 @@
-// Java 프로그래밍 - 변수와 자료형_2
+package Java_02_변수와자료형;// Java 프로그래밍 - 변수와 자료형_2
 
 public class Java_02_변수와_자료형_2 {
     public static void main(String[] args) {

@@ -1,14 +1,14 @@
-// Java 프로그래밍 - 클래스와 객체_1
+package Java_07_클래스와객체;// Java 프로그래밍 - 클래스와 객체_1
 
-// Car 클래스 - 객체변수, 메소드
+// Java_07_클래스와객체1.Car 클래스 - 객체변수, 메소드
 class Car {
     String name;
     String type;
 
-//    Car() {}
+//    Java_07_클래스와객체1.Car() {}
 
     public void printCarInfo() {
-        System.out.println("=== Car Info ===");
+        System.out.println("=== Java_07_클래스와객체1.Car Info ===");
         System.out.println("name = " + name);
         System.out.println("type = " + type);
     }
@@ -23,7 +23,7 @@ class Car {
 
 }
 
-// Car2 클래스 - 생성자, this
+// Java_07_클래스와객체1.Car2 클래스 - 생성자, this
 class Car2 {
     String name;
     String type;
@@ -36,7 +36,7 @@ class Car2 {
 
 
     public void printCarInfo() {
-        System.out.println("=== Car Info ===");
+        System.out.println("=== Java_07_클래스와객체1.Car Info ===");
         System.out.println("name = " + name);
         System.out.println("type = " + type);
     }
@@ -54,7 +54,7 @@ class Car2 {
 public class Java_07_01_클래스와_객체_1 {
 
     public static void main(String[] args) {
-//      Car 클래스 사용
+//      Java_07_클래스와객체1.Car 클래스 사용
         Car myCar1 = new Car();
         myCar1.name = "A";
         myCar1.type = "SUV";
@@ -62,7 +62,7 @@ public class Java_07_01_클래스와_객체_1 {
         myCar1.move();
         myCar1.brake();
 
-//      Car2 클래스 사용
+//      Java_07_클래스와객체1.Car2 클래스 사용
         Car2 myCar2 = new Car2("b", "sedan");
         myCar2.printCarInfo();
         myCar2.load();
